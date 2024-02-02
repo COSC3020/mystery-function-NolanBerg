@@ -18,6 +18,11 @@ This function finds and returns the maximum element of the parameter array.
 
    var foo = mystery(a.slice(1, a.length)) -> foo is recursive call of fucntion with array - first elemnt
 
-   if(foo > a[0]) return foo; -> compare foo value with first element of original array if foo > a[0] return foo else return a[0]
+   if(foo > a[0]) return foo; -> compare foo value with first element of original array if foo > a[0] return foo 
+
+   else return a[0]; -> return first element
+
+The function compares each element within the array to find the largest element in the parameter array
+ 
 
    
